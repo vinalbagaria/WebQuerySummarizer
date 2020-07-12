@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Query</title>
+</head>
+<body>
+    <h1>Query</h1>
+    <form action="/search/">{% csrf_token %}
+        <label for="query">
+            Ask Your Query
+        </label><br><br>
+        <div>
+            <input type="text" id="query" name="query" placeholder="Query on single domain only">
+        </div><br><br><br>
+        <div>
+            <input type="submit" value="Get The Summary">
+        </div>
+    </form>
+</body>
+</html>
