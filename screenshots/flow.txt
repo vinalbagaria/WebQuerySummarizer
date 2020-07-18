@@ -1,0 +1,5 @@
+1. Allow users to enter queries on a web application.
+2. Get the results from searching the query on google.
+3. From the multiple results, extract all the links on the first page as they are highly relevant to user query
+4. Scrape and clean the data from all these links and store it in a text file.
+5. Send the data to NLP based models to generate a summary.
