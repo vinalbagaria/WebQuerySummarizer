@@ -6,12 +6,13 @@
 </head>
 <body>
     <h1>Query</h1>
-    <form action="/search/">{% csrf_token %}
+    <form action="/search/" method="post">{% csrf_token %}
         <label for="query">
             Ask Your Query
         </label><br><br>
         <div>
-            <input type="text" id="query" name="query" placeholder="Query on single domain only">
+            {{ form }}
+            <!--<input type="text" id="query" name="query" placeholder="Query on single domain only">-->
         </div><br><br><br>
         <div>
             <input type="submit" value="Get The Summary">

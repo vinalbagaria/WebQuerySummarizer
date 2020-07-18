@@ -24,7 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',index),
     path('search/',searchQuery),
-    path('scrape/',scrapePages),
+    path('scrape/<que>',scrapePages),
     path('summarize/',summarizeResult),
     path('result/',sendResponse),
 ]
