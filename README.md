@@ -1,9 +1,14 @@
-# WebQuerySummarizer
+# Web Query Summarizer
 A Web application which generates an extractive summary of single domain multi documents (scraped web pages) based on user web query using web scraping, NLP
 
-> Clone the repository and run the django project with the command ```python manage.py runserver```
+To run the project, clone the repository or download and extract the zip file and execute the following command to install packages and dependencies
+> pip install -r requirements.txt
 
-> Ensure you have the latest chromedriver.exe file in your project folder
+The Django project can be run by executing the command
+> python manage.py runserver
+
+Ensure you have the latest 
+> chromedriver.exe file in your project folder
 
 
 Flow of the system
