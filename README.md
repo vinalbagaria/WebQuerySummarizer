@@ -7,8 +7,7 @@ To run the project, clone the repository or download and extract the zip file an
 The Django project can be run by executing the command
 > python manage.py runserver
 
-Ensure you have the latest 
-> chromedriver.exe file in your project folder
+Ensure you have the latest ```chromedriver.exe``` file in your project folder
 
 
 Flow of the system
